@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ProjPopupBox';
+
+  cActive: string = ''
+
+  fnAbrir(){
+    this.cActive = 'active';
+  }
+
+  fnFechar(){
+    this.cActive = '';
+  }
 }
